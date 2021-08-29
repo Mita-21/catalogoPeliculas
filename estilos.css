@@ -1,0 +1,122 @@
+header, section, footer{
+    width: 960px;
+    margin-left: auto;
+    margin-right:auto;
+}
+header{
+    height: 200px;
+    background-color: #ff8080 ;
+    margin-bottom: 10px;
+    border-style: outset;
+}
+     #img_logo{
+     height: 150px;
+     width: 300px;
+     background-color: #d6d6c2;
+     margin-left: 20px;
+     margin: 20px;
+     float: left;
+     }
+
+     #menu{
+     height:120px;
+     width: 500px;
+     background-color:#d6d6c2;
+     margin-right: 30px;
+     margin-top: 30px;
+     float: right;
+     }
+
+#inicio {
+    height: 720px;
+    background-color: #ffe6b3;
+    margin-bottom: 10px;
+}
+    #imagenizquierda{
+    height: 500px;
+    width: 400px;
+    background-color: #ffb3b3;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    float: left;
+    }
+    #textoderecho{
+    height: 500px;
+    width:450px ;
+    background-color: #ffb3b3 ;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    float: right;
+    }
+    #texto{
+    height: 200px;
+    width: 960px;
+    background-color: #ffb3b3 ;
+    clear: both;
+    }
+
+#quienessomos{
+    height:200px ;
+    background-color: #990033;
+    margin-bottom: 10px;
+    border-style: groove;
+}
+    #fotonosotras{
+        height: 200px;
+        width: 380px;
+        background-color:#d6d6c2;
+        margin-left:15px;
+        float: left;
+    }
+    #descripcion{
+        height: 200px;
+        width: 400px;
+        background-color:#d6d6c2;
+        margin-right: 15px;
+        float: right;
+    }
+#nuestrosproductos{
+    height:350px;
+    background-color:#ff8c66;
+    margin-bottom: 10px;
+}
+    #foto1, #foto2, #foto3, #foto4 {
+        height:150px ;
+        width: 225px;
+        background-color: lightgoldenrodyellow;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        float: left;
+    }
+    #descripfoto1, #descripfoto2, #descripfoto3, #descripfoto4{
+        height:150px ;
+        width: 200px;
+        background-color: tan ;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        float: right;
+    }
+footer {
+    height: 150px;
+    background-color: #996600
+}
+    #nombreycelulares{
+        height: 120px;
+        width: 400px;
+        background-color: wheat;
+        margin-top: 15px;
+        margin-left: 15px;
+        float: left;
+    }
+    #botonera{
+        height: 120px;
+        width: 450px;
+        background-color: wheat; 
+        margin-top: 15px;
+        margin-right: 15px;
+        float: right;
+    }
