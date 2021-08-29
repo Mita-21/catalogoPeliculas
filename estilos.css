@@ -3,7 +3,7 @@ header, section, footer{
     margin-left: auto;
     margin-right:auto;
 }
-header{
+.container{
     height: 200px;
     background-color: #ff8080 ;
     margin-bottom: 10px;
@@ -40,7 +40,7 @@ header{
     margin-bottom: 10px;
     float: left;
     }
-    #textoderecho{
+    .title{
     height: 500px;
     width:450px ;
     background-color: #ffb3b3 ;
