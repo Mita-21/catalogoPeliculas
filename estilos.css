@@ -1,122 +1,463 @@
+body {
+    background-image: url(./fotos/pattern1.jpg);
+}
 header, section, footer{
     width: 960px;
     margin-left: auto;
     margin-right:auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.container{
+header{
     height: 200px;
-    background-color: #ff8080 ;
     margin-bottom: 10px;
-    border-style: outset;
+    box-shadow: -1px 3px 18px #000000;
+    border-radius: 20px;
 }
-     #img_logo{
-     height: 150px;
-     width: 300px;
-     background-color: #d6d6c2;
-     margin-left: 20px;
-     margin: 20px;
-     float: left;
-     }
+            #img_logo{
+            height: 200px;
+            width: 210px;
+            background-image: url(./fotos/logo1.jpg);
+            margin-left: 0px;
+            border-radius: 20px;
+            float: left;
+            }
 
-     #menu{
-     height:120px;
-     width: 500px;
-     background-color:#d6d6c2;
-     margin-right: 30px;
-     margin-top: 30px;
-     float: right;
-     }
+            #menu{
+            height: 80px;
+            width: 725px;
+            margin: 10px;
+            margin-top: 60px;
+            float: right;
+            }
+                    #menu ul {
+                        margin: 0px;
+                        padding: 0px;
+                    }
+                    #menu ul li {
+                        list-style-type: none;
+                        display: inline; 
+                    }
+                    #menu ul li a {
+                        display: inline-block;
+                        width: 177px;
+                        height: 80px;
+                        line-height: 80px;
+                        font-weight: bolder;
+                        font-size: 17px;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+                        background-color:#ff8180;
+                        color: #363131;
+                        text-decoration: none;
+                        text-align: center;
+                        border-radius: 10px;
+                    }
+                    #menu a:hover {
+                        background-color: transparent;
+                        color: #363131 ;
+                        font-size: 17px;
+                        font-style: oblique;
+                        text-decoration: underline; 
+                        border-style: solid;
+                        border-width: thin ;
+                        border-color: black; 
+                    }
+#consultanos{
+height: 180px;
+width: 950px;
+padding: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+background-color: rgba(220, 113, 103, 0.4);
+border-radius: 20px;
+clear: both;
+}
+ #juego{
+     height: 180px;
+     width: 455px;
+     background-color: grey; 
+     float: left;
+    }
+ #conocemas{
+    height: 180px;
+    width: 455px;
+    background-color: grey; 
+    float: right;
+ }
+ #juego p , #conocemas p {
+        font-size: 32px;
+        color: #363131;
+        margin-left: 10px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    #juego  a, #conocemas a {
+        text-decoration: none;
+        color: #363131;
+    }
 
 #inicio {
-    height: 720px;
-    background-color: #ffe6b3;
+    height:720px;
     margin-bottom: 10px;
+   }
+#texto p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px ;
+    font-style: oblique;
 }
-    #imagenizquierda{
-    height: 500px;
-    width: 400px;
-    background-color: #ffb3b3;
-    margin-left: 25px;
-    margin-bottom: 10px;
-    float: left;
-    }
-    .title{
-    height: 500px;
-    width:450px ;
-    background-color: #ffb3b3 ;
-    margin-right: 25px;
-    margin-bottom: 10px;
-    float: right;
-    }
-    #texto{
-    height: 200px;
-    width: 960px;
-    background-color: #ffb3b3 ;
-    clear: both;
-    }
+            #imagenderecha{
+            height:560px;
+            width: 495px;
+            background-image: url(./fotos/inicio.jpg);
+            background-repeat: no-repeat;
+            margin-left: 5px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            border-style: solid;
+            border-width: thin ;
+            border-color: black;
+            float: right;
+            }
+            #imagenizquierda{
+            height:560px;
+            width:450px;
+            background-image: url(./fotos/volante.png);
+            background-repeat: no-repeat;
+            background-position: center;        
+            border-radius: 20px;
+            border-style: solid;
+            border-width: thin ;
+            border-color: black;
+            float: left;
+            }
+            #texto{
+            height: 160px;
+            width: 950px;
+            padding: 10px;
+            margin-top: 10px;
+            text-align: justify;
+            box-sizing: border-box;
+            background-color: #ff8180;
+            border-radius: 20px;
+            clear: both;
+            }
 
 #quienessomos{
-    height:200px ;
-    background-color: #990033;
+    height:400px ;
     margin-bottom: 10px;
-    border-style: groove;
 }
-    #fotonosotras{
-        height: 200px;
-        width: 380px;
-        background-color:#d6d6c2;
-        margin-left:15px;
-        float: left;
-    }
-    #descripcion{
-        height: 200px;
-        width: 400px;
-        background-color:#d6d6c2;
-        margin-right: 15px;
-        float: right;
-    }
+            #fotonosotras{
+                height: 375px;
+                width: 500px;
+                background-image: url(./fotos/nosotras.jpg);
+                background-color:#d6d6c2;
+                margin-top: 10px;
+                border-radius: 20px;
+                float: left;
+            }
+            #descripcion{
+                height: 375px;
+                width: 430px;
+                margin-right: 5px;
+                margin-top: 10px;
+                padding-left: 10px;
+                border-radius: 20px;
+                box-shadow:  0px 0px 30px #ff9900;
+                float: right;
+            }
+            #descripcion p {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 22px ;
+                font-weight: bold;
+            }
+
 #nuestrosproductos{
-    height:350px;
-    background-color:#ff8c66;
+    height:520px;
+    background-color: #ff8080;
+    margin-bottom: 10px;
+    border-radius: 20px;  
+}
+        .fotosydescrip div {
+                height:150px ;
+                width: 210px;
+                background-color: lightgoldenrodyellow;
+                margin:10px;
+                margin-left: 15px;
+                float: left;
+            }
+
+#contacto {
+    height: 170px;
+    box-shadow: -1px 3px 18px #000000;
+    border-radius: 20px;
+    
+}
+#celulares p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 21px ; 
+    text-align: center;
+}
+            #celulares{
+                height: 150px;
+                width: 300px;
+                background-color: gray;
+                margin-top: 10px;
+                margin-left: 10px;
+                box-sizing: border-box;
+                border-radius: 20px;
+                float: left;
+            }
+            .txt_responsive {
+                display: none;
+            }
+            #iconos{
+                height: 150px;
+                width: 600px;
+                background-color:grey; 
+                margin-top: 10px;
+                margin-right: 10px;
+                border-radius: 20px;
+                float: right;
+            }
+            #iconos ul li {
+                list-style-type: none;
+                display: inline;
+            }
+            #iconos ul li a {
+                display: inline-block;
+                text-decoration: none;
+                padding: 20px 15px 20px 40px;
+            }
+
+
+/* Inicio responsive*/
+@media all and (min-width:600px) and (max-width:1023px){
+  
+header, section, footer{
+    width: 580px;
+}
+    #menu{
+            height: 160px;
+            width: 350px;
+            margin: 5px;
+            margin-top:15px;
+            }
+                    #menu ul li a {
+                        display: inline-block;
+                        margin:2px;
+                        width: 165px;
+                    }                             
+#consultanos{
+height: 180px;
+width: 560px;
+}
+    #consultanos h2 {
+        margin-left: 30px;
+    }
+    #consultanos li{
+        margin-left: 0px;
+        padding: 0px;
+    }
+ #juego{
+    width: 260px;
+   
+    }
+ #conocemas{
+    width: 260px;
+ }
+ #juego p , #conocemas p {
+        padding-top: 10px;
+    }
+
+#inicio {
+    height:1300px;
+   }
+            #imagenderecha{
+            width: 580px;
+            background-position: center;
+            background-color: #d1dcde;
+            }
+            #imagenizquierda{
+            width:580px;
+            background-color: #d1dcde;
+            margin-bottom: 5px;
+            }
+            #texto{
+            height: 160px;
+            width: 580px;
+                    }
+
+#quienessomos{
+    height: 390px ;
     margin-bottom: 10px;
 }
-    #foto1, #foto2, #foto3, #foto4 {
-        height:150px ;
-        width: 225px;
-        background-color: lightgoldenrodyellow;
-        margin-top: 15px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        float: left;
-    }
-    #descripfoto1, #descripfoto2, #descripfoto3, #descripfoto4{
-        height:150px ;
-        width: 200px;
-        background-color: tan ;
-        margin-top: 15px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        float: right;
-    }
-footer {
-    height: 150px;
-    background-color: #996600
+            #fotonosotras{
+                height: 375px;
+                width: 270px;
+                background-image: url(./fotos/fotonosotras.jpg);
+            }
+            #descripcion{
+                height: 375px;
+                width: 280px;
+                padding-bottom:5px;
+            }
+            #descripcion p {
+                font-size: 18px ;
+            }
+
+#nuestrosproductos{
+    height: 620px;
+    width: 580px;
+    border-radius: 0px;
 }
-    #nombreycelulares{
-        height: 120px;
-        width: 400px;
-        background-color: wheat;
-        margin-top: 15px;
-        margin-left: 15px;
-        float: left;
+        .fotosydescrip div {
+                height:150px ;
+                width: 180px;
+                margin: 3px 1px 1px 2px ;
+            }
+#contacto {
+    height: 330px;
+    width: 580px;    
+}
+            #celulares{
+                width: 280px;  
+            }
+            .txt_responsive {
+                display: block;
+                width: 260px;
+                height:150px; 
+                margin-top: 10px;
+                margin-right: 10px;
+                background-color: gray;
+                border-radius: 20px;
+                float: right;
+            }
+            .txt_responsive p{
+                font-size: 24px;
+                text-align: center;
+            }
+            #iconos{
+                width: 560px;
+            }
+            #iconos ul li a {
+                padding: 15px;
+                padding-left: 30px;
+                padding-top: 20px;
+            }
+
+} /* fin media 600px a 1023px*/
+
+@media all and (max-width:599px){
+
+header, section, footer{
+    width: 90%;
+}
+header{
+    height: 570px;
+}
+            #img_logo{
+            width: 100%;
+            background-image: url(./fotos/logo1copia.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-top: 10px;
+            }
+
+            #menu{
+            height: 80px;
+            width: 100%;
+            margin: 5px;
+            margin-top: 0px;
+            }
+                    #menu ul {
+                        margin: 20px;
+                    }
+                    #menu ul li a {
+                        display: block;
+                        width: 100%;
+                        height: auto;
+                        line-height: auto;
+                        margin:5px;
+                    }
+#consultanos{
+height: 150px;
+width: 90%;
+}
+    #consultanos h2 {
+        margin-left: 20px;
     }
-    #botonera{
-        height: 120px;
-        width: 450px;
-        background-color: wheat; 
-        margin-top: 15px;
-        margin-right: 15px;
-        float: right;
+    #consultanos li{
+        margin-left: 0px;
     }
+    #juego{
+     display: none; 
+    }
+    #conocemas{
+     height: auto;
+     width: 100%;
+     background-color: transparent;  
+ }
+#inicio {
+    height:auto;
+   }
+            #imagenderecha{
+            height:560px;
+            width: 100%; 
+            background-position: center;
+            margin-left: 0px;
+            float:none;
+            }
+            #imagenizquierda{
+            height:370px;
+            width:100%;
+            background-image:url(./fotos/volante-copia.png);
+            background-color: #d1dcde;
+            float:none;
+            }
+            #texto{
+            height: auto;
+            width:100%;
+            padding: 5px;
+            margin-top: 5px;
+            }
+  #quienessomos {
+    height:auto;
+  }          
+            #fotonosotras{
+                width: 100%;
+                background-position: center;
+                margin-left:0px;
+                float: none;
+            }
+            #descripcion{
+                height:auto;
+                width: 100%;
+                margin-right: 0px;
+                float: none;
+            }
+
+#nuestrosproductos{ 
+    height:auto;
+}
+        .fotosydescrip div {
+                height:150px ;
+                width: 140px;
+                margin-left:auto;
+            }
+#contacto {
+    height: auto;  
+}
+            #celulares{
+                height: auto;
+                width: 100%;
+                margin-left: 0px;
+            }
+            #iconos{
+                height: auto;
+                width: 100%;
+                margin-right: 0px;
+            }
+            #iconos ul li a {
+                padding: 0px;
+                margin:2px;
+            }
+    }/*fin media -599px*/
